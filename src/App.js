@@ -150,26 +150,28 @@ function App() {
       </div>
 
       <div className="container catagories">
-        <div className="catagory-title">
-          <h1 className="title-red">Top</h1>
-          <h1 className="title-normal">catagories</h1>
-        </div>
-        <div className="container list-catagory">
-          <div className="item-cat-toy">
-            <img src={cat_toy} alt="" />
-            <h3 className="item-name">Cat Toys</h3>
+        <div className="group-catagory">
+          <div className="catagory-title">
+            <h1 className="title-red">Top</h1>
+            <h1 className="title-normal">catagories</h1>
           </div>
-          <div className="item-cat-food">
-            <img src={cat_food} alt="" />
-            <h3 className="item-name">Cat Toys</h3>
-          </div>
-          <div className="item-dog-toy">
-            <img src={dog_toy} alt="" />
-            <h3 className="item-name">Cat Toys</h3>
-          </div>
-          <div className="item-dog-food">
-            <img src={dog_food} alt="" />
-            <h3 className="item-name">Cat Toys</h3>
+          <div className="list-catagory">
+            <div className="item-cat-toy">
+              <img src={cat_toy} alt="" />
+              <h3 className="item-name">Cat Toys</h3>
+            </div>
+            <div className="item-cat-food">
+              <img src={cat_food} alt="" />
+              <h3 className="item-name">Cat Toys</h3>
+            </div>
+            <div className="item-dog-toy">
+              <img src={dog_toy} alt="" />
+              <h3 className="item-name">Cat Toys</h3>
+            </div>
+            <div className="item-dog-food">
+              <img src={dog_food} alt="" />
+              <h3 className="item-name">Cat Toys</h3>
+            </div>
           </div>
         </div>
       </div>
@@ -198,24 +200,18 @@ function App() {
             <h4 className="item-name">Nam justo libero porta ege</h4>
             <span className="item-price">$85.00</span>
           </div>
-        </div>
-        <div className="list-seller">
           <div className="card-item">
             <img className="item-img" src={seller1} alt="" />
             <span className="item-rating">5 sao</span>
             <h4 className="item-name">Nam justo libero porta ege</h4>
             <span className="item-price">$85.00</span>
           </div>
-        </div>
-        <div className="list-seller">
           <div className="card-item">
             <img className="item-img" src={seller1} alt="" />
             <span className="item-rating">5 sao</span>
             <h4 className="item-name">Nam justo libero porta ege</h4>
             <span className="item-price">$85.00</span>
           </div>
-        </div>
-        <div className="list-seller">
           <div className="card-item">
             <img className="item-img" src={seller1} alt="" />
             <span className="item-rating">5 sao</span>

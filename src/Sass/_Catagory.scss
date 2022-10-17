@@ -1,70 +1,84 @@
 @import "Variable";
 
 .catagories {
-  .catagory-title {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-  }
-  .title-red {
-    color: $redColor;
-  }
+  display: flex;
+  justify-content: center;
+}
+.group-catagory {
+  display: flex;
+  flex-direction: column;
+}
 
-  .list-catagory {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    .item-cat-toy {
-      background: $lightPurple;
-      width: 120px;
-      height: 120px;
-      border-radius: 10px;
-      img {
-        width: 95px;
-        height: 70px;
-        margin-left: 10px;
-        margin-top: 20px;
-      }
+.catagory-title {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.title-red {
+  color: $redColor;
+}
+
+.list-catagory {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  .item-cat-toy {
+    background: $lightPurple;
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    img {
+      width: 95px;
+      height: 70px;
+      margin-left: 10px;
+      margin-top: 20px;
     }
-    .item-cat-food {
-      background: $lightGrey;
-      width: 120px;
-      height: 120px;
-      border-radius: 10px;
-      img {
-        width: 80px;
-        height: 60px;
-        margin-left: 20px;
-        margin-top: 30px;
-      }
-    }
-    .item-dog-toy {
-      background: $lightGreen;
-      width: 120px;
-      height: 120px;
-      border-radius: 10px;
-      img {
-        width: 80px;
-        height: 60px;
-        margin-left: 20px;
-        margin-top: 30px;
-      }
-    }
-    .item-dog-food {
-      background: $lightOrgane;
-      width: 120px;
-      height: 120px;
-      border-radius: 10px;
-      img {
-        width: 90px;
-        height: 60px;
-        margin-left: 20px;
-        margin-top: 30px;
-      }
-    }
-    .item-name {
-      margin-top: 30px;
+  }
+  .item-cat-food {
+    background: $lightGrey;
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    img {
+      width: 80px;
+      height: 60px;
       margin-left: 20px;
+      margin-top: 30px;
     }
+  }
+  .item-dog-toy {
+    background: $lightGreen;
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    img {
+      width: 80px;
+      height: 60px;
+      margin-left: 20px;
+      margin-top: 30px;
+    }
+  }
+  .item-dog-food {
+    background: $lightOrgane;
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    img {
+      width: 90px;
+      height: 60px;
+      margin-left: 20px;
+      margin-top: 30px;
+    }
+  }
+  .item-name {
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .list-catagory {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
