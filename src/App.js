@@ -15,6 +15,13 @@ import cat_toy from "./assets/cat-toy.png";
 import cat_food from "./assets/cat-food.png";
 import dog_toy from "./assets/dog-toy.png";
 import dog_food from "./assets/dog-food.png";
+import ic_heart from "./assets/heart.png";
+import imgInfo from "./assets/img_info.png";
+import vitalCare from "./assets/vital_care.png";
+import seller1 from "./assets/seller1.png";
+import seller2 from "./assets/seller2.png";
+import seller3 from "./assets/seller3.png";
+import seller4 from "./assets/seller4.png";
 function App() {
   return (
     <div className="">
@@ -102,8 +109,8 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="banner-img">
-          <img src={banner} alt="" />
+        <div className="banner-right">
+          <img className="banner-img" src={banner} alt="" />
         </div>
       </div>
 
@@ -167,7 +174,56 @@ function App() {
         </div>
       </div>
 
-      <div className="container"></div>
+      <div className="container info">
+        <div className="info-left">
+          <div className="info-title">
+            <img className="icon-heart" src={ic_heart} alt="" />
+            <img className="icon-care" src={vitalCare} alt="" />
+          </div>
+          <p className="info-subtitle">
+            Save big annually with our veterinarian recommended wellness plan.
+          </p>
+          <button className="btn-shop-now">Shop now</button>
+        </div>
+        <div className="info-right">
+          <img src={imgInfo} alt="" />
+        </div>
+      </div>
+
+      <div className=" container seller">
+        <div className="list-seller">
+          <div className="card-item">
+            <img className="item-img" src={seller1} alt="" />
+            <span className="item-rating">5 sao</span>
+            <h4 className="item-name">Nam justo libero porta ege</h4>
+            <span className="item-price">$85.00</span>
+          </div>
+        </div>
+        <div className="list-seller">
+          <div className="card-item">
+            <img className="item-img" src={seller1} alt="" />
+            <span className="item-rating">5 sao</span>
+            <h4 className="item-name">Nam justo libero porta ege</h4>
+            <span className="item-price">$85.00</span>
+          </div>
+        </div>
+        <div className="list-seller">
+          <div className="card-item">
+            <img className="item-img" src={seller1} alt="" />
+            <span className="item-rating">5 sao</span>
+            <h4 className="item-name">Nam justo libero porta ege</h4>
+            <span className="item-price">$85.00</span>
+          </div>
+        </div>
+        <div className="list-seller">
+          <div className="card-item">
+            <img className="item-img" src={seller1} alt="" />
+            <span className="item-rating">5 sao</span>
+            <h4 className="item-name">Nam justo libero porta ege</h4>
+            <span className="item-price">$85.00</span>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
