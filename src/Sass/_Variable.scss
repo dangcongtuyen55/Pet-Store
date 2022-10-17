@@ -8,3 +8,9 @@ $lightOrgane: #fff0ed;
 a {
   text-decoration: none;
 }
+
+@media screen and (max-width: 780px) {
+  body {
+    margin: 0 0 3rem;
+  }
+}
