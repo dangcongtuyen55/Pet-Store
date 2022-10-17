@@ -1,0 +1,51 @@
+@import "Variable";
+
+.header {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 90px;
+  margin-left: 215px;
+  width: 1170px;
+  height: 80px;
+}
+.search-header {
+  float: left;
+}
+.search-icon {
+  margin-top: 30px;
+  margin-left: 50px;
+  width: 20px;
+  height: 20px;
+  color: $redColor;
+}
+.menu-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.menu-header a {
+  width: 80px;
+  color: black;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 15px;
+}
+
+.option-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  float: right;
+}
+.option-menu-icon {
+  width: 20px;
+  height: 20px;
+  color: $redColor;
+}
+
+.logo-header {
+  width: 157px;
+  height: 80px;
+}
