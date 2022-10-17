@@ -61,11 +61,12 @@
 
 @media screen and (max-width: 780px) {
   .banner {
-    // display: flex;
-    // flex-direction: column;
-    // // justify-content: center;
-    // height: 700px;
-    display: none;
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    width: 300px;
+    height: 700px;
+    // display: none;
   }
   .banner-about {
     margin-top: 50px;
