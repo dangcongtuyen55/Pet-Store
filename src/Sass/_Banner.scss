@@ -11,8 +11,9 @@
       rgba(249, 229, 57, 0.108) 96.07%
     ),
     #ffc632;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
+  flex-direction: row;
+  // grid-template-columns: repeat(2, 1fr);
 }
 
 .banner-about {
@@ -56,4 +57,22 @@
   margin-top: 150px;
   width: 600px;
   height: 450px;
+}
+
+@media screen and (max-width: 780px) {
+  .banner {
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    height: 700px;
+  }
+  .banner-about {
+    margin-top: 50px;
+  }
+  .banner-img {
+    width: 300px;
+    height: 300px;
+    margin-top: 30px;
+    margin-left: 200px;
+  }
 }
