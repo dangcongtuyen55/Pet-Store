@@ -31,7 +31,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    max-width: 370px;
+    max-width: 330px;
   }
   .banner-group-btn {
     display: flex;
@@ -63,18 +63,28 @@
   .banner {
     display: flex;
     flex-direction: column;
-    // justify-content: center;
-    width: 300px;
-    height: 700px;
     // display: none;
   }
   .banner-about {
+    width: 340px;
+    height: 230px;
     margin-top: 50px;
+    margin-left: 20px;
+    .banner-title {
+      font-size: 25px;
+      max-width: 300px;
+      margin-bottom: 10px;
+    }
+    .banner-description {
+      margin-bottom: 10px;
+    }
+  }
+  .banner-right {
   }
   .banner-img {
-    width: 300px;
-    height: 300px;
+    width: 310px;
+    height: 290px;
     margin-top: 30px;
-    margin-left: 200px;
+    margin-left: 20px;
   }
 }
