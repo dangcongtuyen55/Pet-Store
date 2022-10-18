@@ -41,9 +41,16 @@
 @media screen and (max-width: 780px) {
   .list-seller {
     grid-template-columns: repeat(2, 1fr);
-  }
-  .item-img {
-    width: 150px;
-    border: 1px solid black;
+    gap: 10px;
+    .card-item {
+      width: 160px;
+      text-align: center;
+      .item-img {
+        width: 150px;
+      }
+      .item-name {
+        max-width: 150px;
+      }
+    }
   }
 }
